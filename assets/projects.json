@@ -1,0 +1,22 @@
+{
+  "_comment": "Featured repos in README order for touheed-dev. Star/fork/language come live from the API on every run.",
+  "projects": [
+    {
+      "repo": "AlumNet",
+      "description": "Alumni networking and community platform bridging students and alumni with mentorship, job opportunities, and collaborative discussions.",
+      "language": "TypeScript"
+    },
+    {
+      "repo": "pentesting-Agent",
+      "description": "Cybersecurity reinforcement learning research prototype using Gymnasium, PPO, and Graph Neural Networks for simulated network penetration testing."
+    },
+    {
+      "repo": "nexora-ai",
+      "description": "AI-powered phishing risk assessment system analyzing URLs and messages using threat intelligence and explainable risk scoring."
+    },
+    {
+      "repo": "portfolio",
+      "description": "Personal developer portfolio built with Next.js, TypeScript, and Tailwind CSS featuring case studies and responsive design."
+    }
+  ]
+}

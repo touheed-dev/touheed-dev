@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated skill axes for Touheed Shaikh",
+  "axes": [
+    { "label": "Python",        "value": 88 },
+    { "label": "C++",           "value": 85 },
+    { "label": "TypeScript",    "value": 80 },
+    { "label": "AI / ML & RL",  "value": 84 },
+    { "label": "Backend & APIs","value": 82 },
+    { "label": "Cybersecurity", "value": 74 },
+    { "label": "Data Structures","value": 78 }
+  ]
+}
