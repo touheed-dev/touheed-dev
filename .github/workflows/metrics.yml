@@ -65,22 +65,3 @@ jobs:
           plugin_languages_indepth: no
           plugin_languages_sections: most-used
           plugins_errors_fatal: no
-
-      # ------------------------------------------------------------------ #
-      # Achievement badges — pins to v3.34 to avoid GraphQL breakage
-      # from GitHub's deprecation of classic Projects API in @latest
-      # ------------------------------------------------------------------ #
-      - name: Achievements
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: touheed-dev
-          filename: assets/metrics.achievements.svg
-          base: ""
-          config_timezone: Asia/Kolkata
-          plugin_achievements: yes
-          plugin_achievements_threshold: X
-          plugin_achievements_secrets: no
-          plugin_achievements_display: compact
-          plugin_achievements_limit: 0
-          plugins_errors_fatal: no
