@@ -8,6 +8,7 @@ Stdlib only. Works in dark and light mode without external dependencies.
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
 import sys
@@ -141,6 +142,9 @@ def render_svg(achievements: list[dict]) -> str:
         icon_path = ICONS.get(a["icon"], ICONS["globe"])
         bar_w = int(64 * a["progress"])
 
+        badge_name = html.escape(str(a['name']))
+        badge_desc = html.escape(str(a['desc']))
+
         badge_elements.append(f"""
         <g class="badge-card" transform="translate({x}, {y})">
             <!-- Card background -->
@@ -156,8 +160,8 @@ def render_svg(achievements: list[dict]) -> str:
             </g>
             
             <!-- Title & Desc -->
-            <text x="10" y="44" class="badge-title">{a['name']}</text>
-            <text x="10" y="56" class="badge-desc">{a['desc']}</text>
+            <text x="10" y="44" class="badge-title">{badge_name}</text>
+            <text x="10" y="56" class="badge-desc">{badge_desc}</text>
             
             <!-- Progress Bar -->
             <rect x="10" y="63" width="68" height="3" rx="1.5" class="prog-bg" />

@@ -109,7 +109,7 @@
             
             <!-- Title & Desc -->
             <text x="10" y="44" class="badge-title">Builder</text>
-            <text x="10" y="56" class="badge-desc">AlumNet & AI</text>
+            <text x="10" y="56" class="badge-desc">AlumNet &amp; AI</text>
             
             <!-- Progress Bar -->
             <rect x="10" y="63" width="68" height="3" rx="1.5" class="prog-bg" />
@@ -132,7 +132,7 @@
             
             <!-- Title & Desc -->
             <text x="10" y="44" class="badge-title">Scripter</text>
-            <text x="10" y="56" class="badge-desc">CI/CD & Workflows</text>
+            <text x="10" y="56" class="badge-desc">CI/CD &amp; Workflows</text>
             
             <!-- Progress Bar -->
             <rect x="10" y="63" width="68" height="3" rx="1.5" class="prog-bg" />
