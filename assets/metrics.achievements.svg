@@ -86,11 +86,11 @@
             
             <!-- Title & Desc -->
             <text x="10" y="44" class="badge-title">Developer</text>
-            <text x="10" y="56" class="badge-desc">16 Repositories</text>
+            <text x="10" y="56" class="badge-desc">17 Repositories</text>
             
             <!-- Progress Bar -->
             <rect x="10" y="63" width="68" height="3" rx="1.5" class="prog-bg" />
-            <rect x="10" y="63" width="40" height="3" rx="1.5" fill="#a371f7" />
+            <rect x="10" y="63" width="43" height="3" rx="1.5" fill="#a371f7" />
         </g>
         
 
